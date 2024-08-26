@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+</head>
+<body>
+
+    <header>
+        <div class="wrapper">
+            <nav class="navbar navbar-expand-lg  bg-white">
+                
+                <div class="container-fluid ">
+                  <a class="navbar-brand" href="#">      <img src="images/Logo.svg" alt="Bootstrap" width="30" height="24">
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Web designs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Mobile designs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Design principles</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Illustrations</a>
+                      </li>
+                      
+                    </ul>
+                    <div class="d-flex">
+                        <li class="list-unstyled nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                English (united States)
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        </div>
+                        <div class="d-flex">
+                          <button class="btn btn-sm ms-3 btn-outline-dark" type="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="account-icon" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                <g clip-path="url(#clip0_4_80)">
+                                    <path d="M12.5 12.5C14.71 12.5 16.5 10.71 16.5 8.5C16.5 6.29 14.71 4.5 12.5 4.5C10.29 4.5 8.5 6.29 8.5 8.5C8.5 10.71 10.29 12.5 12.5 12.5ZM12.5 14.5C9.83 14.5 4.5 15.84 4.5 18.5V20.5H20.5V18.5C20.5 15.84 15.17 14.5 12.5 14.5Z" fill="currentColor"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_4_80">
+                                        <rect width="24" height="24" fill="white" transform="translate(0.5 0.5)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg> Sign in or Create account
+                        </button>
+                         
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <div class="signup wrapper">
+        <div class="signup-form">
+           <div class="signup-section">
+            <h3>signup</h3>
+            <form action="">
+            <a href="#" id="reset">Reset password</a>
+        <div class="form-component">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+    </div>
+    <div class="form-component">
+        <label for="password">Password</label>
+        <input type="Pasword" name="password" id="password">
+    </div>
+    <button href="#" class="btn btn-dark">Button</button>
+    <div class="hrdivider">
+      <hr/>
+      <span>OR</span>
+      <hr/>
+    </div>
+    <div class="google-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+        <path d="M22.501 12.7332C22.501 11.8699 22.4296 11.2399 22.2748 10.5865H12.2153V14.4832H18.12C18.001 15.4515 17.3582 16.9099 15.9296 17.8898L15.9096 18.0203L19.0902 20.435L19.3106 20.4565C21.3343 18.6249 22.501 15.9298 22.501 12.7332Z" fill="#4285F4"/>
+        <path d="M12.214 23C15.1068 23 17.5353 22.0666 19.3092 20.4567L15.9282 17.8899C15.0235 18.5083 13.8092 18.9399 12.214 18.9399C9.38069 18.9399 6.97596 17.1083 6.11874 14.5766L5.99309 14.5871L2.68583 17.0954L2.64258 17.2132C4.40446 20.6433 8.0235 23 12.214 23Z" fill="#34A853"/>
+        <path d="M6.12046 14.5767C5.89428 13.9234 5.76337 13.2233 5.76337 12.5C5.76337 11.7767 5.89428 11.0767 6.10856 10.4234L6.10257 10.2842L2.75386 7.7356L2.64429 7.78667C1.91814 9.21002 1.50146 10.8084 1.50146 12.5C1.50146 14.1917 1.91814 15.79 2.64429 17.2133L6.12046 14.5767Z" fill="#FBBC05"/>
+        <path d="M12.2141 6.05997C14.2259 6.05997 15.583 6.91163 16.3569 7.62335L19.3807 4.73C17.5236 3.03834 15.1069 2 12.2141 2C8.02353 2 4.40447 4.35665 2.64258 7.78662L6.10686 10.4233C6.97598 7.89166 9.38073 6.05997 12.2141 6.05997Z" fill="#EB4335"/>
+      </svg>
+      <p>Continue with Google</p>
+    </div>
+    <div class="privacy-policy">
+      <p>By creating an account, you agree to the <a href="">Terms of use,</a> and <a href="">Privacy Policy.</a></p>
+    </div>
+
+           </div></form>
+            
+        
+           <div class="create-account ">
+            <div class="heading">
+            <h3>Create Account</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus</p>
+          </div>
+          <ul class="my-0 py-0">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus</li>
+           
+          </ul>
+          <button class="btn btn-dark" id="create">Create an account</button>
+           </div>
+        </div>
+
+    </div>
+    <footer>
+      <div class="footer-content">
+        <hr>
+          <div class="content-main">
+              <div class="content-left">
+                  <div class="product">
+                      <h5>Product</h5>
+                      <ul>
+                          <li>Pricing</li>
+                          <li>Solutions</li>
+                          <li>Education</li>
+                          <li>Team plans</li>
+                      </ul>
+                  </div>
+                  <div class="about-us">
+                      <h5>About Us</h5>
+                      <ul>
+                          <li>Company</li>
+                          <li>Team</li>
+                          <li>Careers</li>
+                          <li>Contact</li>
+                      </ul>
+                  </div>
+                  <div class="help">
+                      <h5>Help</h5>
+                      <ul>
+                          <li>FAQ</li>
+                          <li>Support</li>
+                          <li>Terms</li>
+                          <li>Privacy</li>
+                      </ul>
+                  </div>
+                  <div class="community">
+                      <h5>Community</h5>
+                      <ul>
+                          <li href="www.google.com">Forums</li>
+                          <li>Blog</li>
+                          <li>Events</li>
+                          <li>Podcast</li>
+                      </ul>
+                  </div>
+              </div>
+  
+              <div class="buttons">
+                  <a href=""><img src="images/AppStore.svg" alt=""></a>
+                  <a href=""><img src="images/Playstore.svg" alt=""></a>
+                  
+              </div>
+          </div>
+          <hr>
+          <ul class="footer-ul ms-0 ps-0">
+            <li>@copyright2022</li>
+            <li>Help</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <div class="footer-end mr-0 pr-0">
+            <li><div class="d-flex"><div class="footer-icons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                <g opacity="0.8">
+                  <circle cx="12.5" cy="12" r="10.5" fill="white"/>
+                  <path d="M16.4103 15.2112L16.8767 12.2476H13.9589V10.3252C13.9589 9.51428 14.3657 8.7233 15.6726 8.7233H17V6.20024C17 6.20024 15.7959 6 14.6452 6C12.2411 6 10.6712 7.4197 10.6712 9.98883V12.2476H8V15.2112H10.6712V22.3759C11.2075 22.458 11.7562 22.5 12.3151 22.5C12.874 22.5 13.4226 22.458 13.9589 22.3759V15.2112H16.4103Z" fill="#666666"/>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                <g opacity="0.8">
+                  <path d="M7.86796 17.5C5.84609 17.5 3.96136 16.9119 2.375 15.8973C3.72187 15.9844 6.09879 15.7757 7.57724 14.3655C5.35317 14.2634 4.35016 12.5577 4.21934 11.8287C4.40831 11.9016 5.30956 11.9891 5.81834 11.785C3.25994 11.1435 2.86745 8.89833 2.95467 8.21311C3.43437 8.54843 4.24841 8.66506 4.56821 8.6359C2.18425 6.93015 3.04189 4.36422 3.46345 3.81022C5.17426 6.18042 7.73825 7.51161 10.9102 7.58565C10.8504 7.32335 10.8188 7.05026 10.8188 6.76978C10.8188 4.75682 12.4459 3.125 14.4529 3.125C15.5016 3.125 16.4465 3.57047 17.1098 4.28302C17.8106 4.11882 18.8652 3.73442 19.3808 3.402C19.1209 4.33507 18.3118 5.11343 17.8224 5.40192C17.8185 5.39207 17.8265 5.41174 17.8224 5.40192C18.2523 5.3369 19.4155 5.11336 19.875 4.8016C19.6478 5.32578 18.79 6.19733 18.0861 6.68526C18.217 12.4613 13.7978 17.5 7.86796 17.5Z" fill="#666666"/>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                <g opacity="0.8">
+                  <rect x="1.75" y="1.25" width="17.5" height="17.5" rx="6" fill="url(#paint0_radial_56_329)"/>
+                  <rect x="1.75" y="1.25" width="17.5" height="17.5" rx="6" fill="url(#paint1_radial_56_329)"/>
+                  <rect x="1.75" y="1.25" width="17.5" height="17.5" rx="6" fill="#666666"/>
+                  <path d="M14.875 6.5625C14.875 7.08027 14.4553 7.5 13.9375 7.5C13.4197 7.5 13 7.08027 13 6.5625C13 6.04473 13.4197 5.625 13.9375 5.625C14.4553 5.625 14.875 6.04473 14.875 6.5625Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 13.125C12.2259 13.125 13.625 11.7259 13.625 10C13.625 8.27411 12.2259 6.875 10.5 6.875C8.77411 6.875 7.375 8.27411 7.375 10C7.375 11.7259 8.77411 13.125 10.5 13.125ZM10.5 11.875C11.5355 11.875 12.375 11.0355 12.375 10C12.375 8.96447 11.5355 8.125 10.5 8.125C9.46447 8.125 8.625 8.96447 8.625 10C8.625 11.0355 9.46447 11.875 10.5 11.875Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 9.75C4.25 7.6498 4.25 6.5997 4.65873 5.79754C5.01825 5.09193 5.59193 4.51825 6.29754 4.15873C7.0997 3.75 8.1498 3.75 10.25 3.75H10.75C12.8502 3.75 13.9003 3.75 14.7025 4.15873C15.4081 4.51825 15.9817 5.09193 16.3413 5.79754C16.75 6.5997 16.75 7.6498 16.75 9.75V10.25C16.75 12.3502 16.75 13.4003 16.3413 14.2025C15.9817 14.9081 15.4081 15.4817 14.7025 15.8413C13.9003 16.25 12.8502 16.25 10.75 16.25H10.25C8.1498 16.25 7.0997 16.25 6.29754 15.8413C5.59193 15.4817 5.01825 14.9081 4.65873 14.2025C4.25 13.4003 4.25 12.3502 4.25 10.25V9.75ZM10.25 5H10.75C11.8207 5 12.5486 5.00097 13.1112 5.04694C13.6592 5.09171 13.9395 5.17287 14.135 5.27248C14.6054 5.51217 14.9878 5.89462 15.2275 6.36502C15.3271 6.56052 15.4083 6.84078 15.4531 7.3888C15.499 7.95141 15.5 8.67928 15.5 9.75V10.25C15.5 11.3207 15.499 12.0486 15.4531 12.6112C15.4083 13.1592 15.3271 13.4395 15.2275 13.635C14.9878 14.1054 14.6054 14.4878 14.135 14.7275C13.9395 14.8271 13.6592 14.9083 13.1112 14.9531C12.5486 14.999 11.8207 15 10.75 15H10.25C9.17928 15 8.45141 14.999 7.8888 14.9531C7.34078 14.9083 7.06052 14.8271 6.86502 14.7275C6.39462 14.4878 6.01217 14.1054 5.77248 13.635C5.67287 13.4395 5.59171 13.1592 5.54694 12.6112C5.50097 12.0486 5.5 11.3207 5.5 10.25V9.75C5.5 8.67928 5.50097 7.95141 5.54694 7.3888C5.59171 6.84078 5.67287 6.56052 5.77248 6.36502C6.01217 5.89462 6.39462 5.51217 6.86502 5.27248C7.06052 5.17287 7.34078 5.09171 7.8888 5.04694C8.45141 5.00097 9.17928 5 10.25 5Z" fill="white"/>
+                </g>
+                <defs>
+                  <radialGradient id="paint0_radial_56_329" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8 14.375) rotate(-55.3758) scale(15.9498)">
+                    <stop stop-color="#B13589"/>
+                    <stop offset="0.79309" stop-color="#C62F94"/>
+                    <stop offset="1" stop-color="#8A3AC8"/>
+                  </radialGradient>
+                  <radialGradient id="paint1_radial_56_329" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(7.375 19.375) rotate(-65.1363) scale(14.1214)">
+                    <stop stop-color="#E0E8B7"/>
+                    <stop offset="0.444662" stop-color="#FB8A2E"/>
+                    <stop offset="0.71474" stop-color="#E2425C"/>
+                    <stop offset="1" stop-color="#E2425C" stop-opacity="0"/>
+                  </radialGradient>
+                </defs>
+              </svg>
+            </div></li>
+           <li>
+            <li class="list-unstyled nav-item dropdown">
+                <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    English (united States)
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </div></li> 
+        </ul>
+        </div>
+          
+      </div>
+  </footer>
+  
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+    <script src="main.js"></script>
+</body>
+</html>
